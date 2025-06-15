@@ -81,20 +81,33 @@ section {
 }
 
 /* ===== Project Cards ===== */
-#projects {
+.project-grid-3 {
   display: grid;
-  grid-gap: 2rem;
+  gap: 2rem;
+  grid-template-columns: repeat(1, 1fr);
 }
 
 @media (min-width: 768px) {
-  #projects {
+  .project-grid-3 {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (min-width: 1024px) {
-  #projects {
+  .project-grid-3 {
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.project-grid-2 {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+@media (min-width: 768px) {
+  .project-grid-2 {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
