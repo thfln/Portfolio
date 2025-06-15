@@ -80,6 +80,46 @@ section {
   padding: 0 1rem;
 }
 
+/* =====Section Blocks =====*/
+.section-block {
+  padding: 2.5rem;
+  margin-bottom: 3rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+}
+
+.section-block h2 {
+  margin-top: 0;
+  font-size: 1.8rem;
+  color: #0a3d62;
+}
+
+/* ===== Section-specific colors =====*/
+.about-block {
+  background-color: #fefefe;
+  border-left: 6px solid #2a9d8f;
+}
+
+.featured-block {
+  background-color: #f4f6f9;
+  border-left: 6px solid #2a9d8f;
+}
+
+.additional-block {
+  background-color: #e0f7fa;
+  border-left: 6px solid #0077b6;
+}
+
+.content-block {
+  background-color: #f0f4ff;
+  border-left: 6px solid #5e60ce;
+}
+
+.contact-block {
+  background-color: #f7f7f7;
+  border-left: 6px solid #00b894;
+}
+
 /* ===== Project Cards ===== */
 .project-grid-3 {
   display: grid;
