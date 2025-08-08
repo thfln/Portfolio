@@ -1,1 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Readmission Risk Predictor</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
 
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <a href="../index.html">Home</a> |
+    <a href="../about.html">About</a> |
+    <a href="index.html" class="active">Projects</a> |
+    <a href="../index.html">Content Creation</a> |
+    <a href="../index.html">Contact</a>
+  </nav>
+
+  <!-- HEADER SECTION -->
+  <header class="project-header">
+    <h1>🏥 Readmission Risk Predictor</h1>
+    <p>
+      This project predicts 30-day hospital readmission risk using clinical and demographic features,
+      supporting proactive interventions, and improved patient outcomes.
+    </p>
+  </header>
+
+  <!-- PROJECT DETAILS -->
+  <main class="project-content">
+
+    <!-- DATA SOURCES -->
+    <section id="data-sources">
+      <h2>📈 Data Sources</h2>
+      <ul>
+        <li><a href="https://www.kaggle.com/datasets/siddharth0935/hospital-readmission-predictionsynthetic-dataset" target="_blank">Hospital Readmission Prediction(synthetic-dataset)</a></li>
+      </ul>
+    </section>
+
+    <!-- METHODS -->
+    <section id="models">
+      <h2>⚙️ Models</h2>
+      <ul>
+        <li>Random Forest</li>
+        <li>XGBoost</li>
+      </ul>
+    </section>
+
+    <!-- VISUALS -->
+    <section id="visuals">
+      <h2>📊 Key Visuals</h2>
+
+      <figure>
+        <img src="readmission_risk_assets/images/ROC_AUC_RF_XGB.png" alt="Model Performance Visual" width="700">
+        <figcaption><b>Figure 1:</b> Comparison ROC-AUC visualization for the Random Forest and XGBoost models.
+        </figcaption>
+      </figure>
+
+      <figure>
+        <img src="readmission_risk_assets/images/RF_FI.png" alt="Feature Importance" width="700">
+        <figcaption><b>Figure 2:</b> Bar chart showing features that were deemed important by the Random Forest model for predictions.
+        </figcaption>
+      </figure>
+
+      <figure>
+        <img src="readmission_risk_assets/images/XGB_FI.png" alt="Feature Importance" width="700">
+        <figcaption><b>Figure 3:</b> Bar chart showing features that were deemed important by the XGBoost model for predictions.
+        </figcaption>
+      </figure>
+    </section>
+
+    <!-- FINDINGS -->.
+    <section id="findings">
+      <h2>🔍 Key Findings</h2>
+      <ul>
+        <li>Random Forest achieved the highest recall for high-risk patients.</li>
+        <li>Feature importance revealed that discharge destination was a key predictor for both models while XGBoost was capable of pulling out nuances such as comorbidities and demographic features.</li>
+      </ul>
+    </section>
+
+    <!-- PRESENTATION -->
+    <section id="presentation">
+      <h2>📽️ Project Presentation</h2>
+      <p>This recorded presentation summarizes the project's goals, methodology, findings, and recommendations.</p>
+      <video width="720" controls>
+        <source src="readmission_risk_assets/DSC450_Project3.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </section>
+
+    <!-- RESOURCES & DELIVERABLES -->
+    <section id="resources">
+      <h2>📁 Resources & Deliverables</h2>
+      <p>Click the links below to view or download the full project deliverables:</p>
+      <ul>
+        <li>📄 <a href="readmission_risk_assets/Project 3-Project Draft DSC450.pdf" target="_blank">Final Written Report (.pdf)</a></li>
+        <li>📓 <a href="readmission_risk_assets/DSC450_Project3_Final.html" target="_blank">Project Notebook (HTML)</a></li>
+        <li>❓ <a href="readmission_risk_assets/Project 3 Q&A DSC450.docx" download>Stakeholder Q&A (.docx)</a></li>
+      </ul>
+    </section>
+
+    <!-- NAV BACK -->
+    <section id="back-link">
+      <a href="index.html">🔙 Back to All Projects</a>
+    </section>
+
+  </main>
+  
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 Tyler Heflin. All rights reserved. Last updated August 2025.</p>
+  </footer>
+  
+</body>
+</html>
