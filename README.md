@@ -1,4 +1,4 @@
-# TYLER HEFLIN, RN
+# TYLER HEFLIN, BS, RN
 
 **Nurse Informaticist / Clinical Researcher / Data Scientist**
 
